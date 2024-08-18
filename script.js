@@ -17,3 +17,4 @@ document.addEventListener("DOMContentLoaded", function() {
 function OpenModal(){
     document.getElementById('modal').style.display = 'block'
 }
+
