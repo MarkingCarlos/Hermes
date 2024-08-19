@@ -1,370 +1,322 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luis Especiato</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="estilo.css" />
-  </head>
-  <body style="background-color: #e4142c">
-    <img
-      id="imgPartido"
-      src="Imagens/Partido dos Trabalhadores.png"
-      alt="Descrição da imagem"
-      height="40"
-    />
-    <div class="centraliza">
-      <img
-        id="imgLuis"
-        src="Imagens/FotoLuis.png"
-        alt="Descrição da imagem"
-        height="400px"
-        
-      />
-    </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luis Especiato</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+
+<body style="background-color: #e4142c">
+  <img id="imgPartido" src="Imagens/Partido dos Trabalhadores.png" alt="Descrição da imagem" height="40" />
+  <div class="centraliza">
+    <img class="mobile-view" id="imgLuis" src="Imagens/FotoLuis.png" alt="Descrição da imagem" height="400px" />
+  </div>
 
 
-    <div style="margin-top: 2vh">
-      <h2
-        style="
+  <div style="margin-top: 2vh">
+    <h2 style="
           text-align: center;
           font-family: 'Montserrat', sans-serif;
           color: #fed82a;
-        "
-      >
-        PROJETOS
-      </h2>
-    </div>
+        ">
+      PROJETOS
+    </h2>
+  </div>
 
-    <div class="container" style="margin-bottom: 0.5rem">
-      <div class="row">
-        <div class="col centraliza">
-          <div>
-            <div class="centraliza Box">
-              <div>
-                <button
-                  style="border: none; background-color: #e4142c"
-                  data-bs-toggle="modal"
-                  data-bs-target="#ModalEdu"
-                >
-                  <img
-                    src="Imagens/edu.svg"
-                    alt="Descrição da imagem"
-                    height="50"
-                  />
-                </button>
-                <p style="margin-bottom: 0px; text-align: center">Educação</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col centraliza">
-          <div>
-            <div class="centraliza Box">
-              <div>
-                <button
-                  style="border: none; background-color: #e4142c"
-                  data-bs-toggle="modal"
-                  data-bs-target="#ModalAgro"
-                >
-                  <img
-                    style="margin-left: 17px"
-                    src="Imagens/agro.svg"
-                    alt="Descrição da imagem"
-                    height="50"
-                  />
-                </button>
-                <p style="margin-bottom: 0px; text-align: center">Agronomia</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col centraliza">
-          <div>
-            <div class="centraliza Box">
-              <div>
-                <button
-                  style="border: none; background-color: #e4142c"
-                  data-bs-toggle="modal"
-                  data-bs-target="#ModalSaude"
-                >
-                  <img
-                    src="Imagens/saude.svg"
-                    alt="Descrição da imagem"
-                    height="50"
-                  />
-                </button>
-                <p style="margin-bottom: 0px; text-align: center">Saúde</p>
-              </div>
+  <div class="container" style="margin-bottom: 0.5rem">
+    <div class="row">
+      <div class="col centraliza">
+        <div>
+          <div class="centraliza Box">
+            <div>
+              <button style="border: none; background-color: #e4142c" data-bs-toggle="modal" data-bs-target="#ModalEdu">
+                <img src="Imagens/edu.svg" alt="Descrição da imagem" height="50" />
+              </button>
+              <p style="margin-bottom: 0px; text-align: center">Educação</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <div class="col centraliza">
+        <div>
+          <div class="centraliza Box">
+            <div>
+              <button style="border: none; background-color: #e4142c" data-bs-toggle="modal"
+                data-bs-target="#ModalAgro">
+                <img style="margin-left: 17px" src="Imagens/agro.svg" alt="Descrição da imagem" height="50" />
+              </button>
+              <p style="margin-bottom: 0px; text-align: center">Agricultura</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <div>
-      <h2
-        style="
+      <div class="col centraliza">
+        <div>
+          <div class="centraliza Box">
+            <div>
+              <button style="border: none; background-color: #e4142c" data-bs-toggle="modal"
+                data-bs-target="#ModalSaude">
+                <img src="Imagens/saude.svg" alt="Descrição da imagem" height="50" />
+              </button>
+              <p style="margin-bottom: 0px; text-align: center">Saúde</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col centraliza">
+        <div>
+          <div class="centraliza Box">
+            <div>
+              <button style="border: none; background-color: #e4142c" data-bs-toggle="modal"
+                data-bs-target="#ModalEmpregos">
+                <img style="margin-left: 17px" src="Imagens/saude.svg" alt="Descrição da imagem" height="45" />
+              </button>
+              <p style="margin-bottom: 0px; text-align: center">Geração de emprego</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div>
+    <h2 style="
           text-align: center;
           font-family: 'Montserrat', sans-serif;
           color: #fed82a;
-        "
-      >
-        SOBRE MIM
-      </h2>
-      <div id="biografia">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-          dolor sint unde quas sed tempora mollitia alias incidunt, quia cum
-          quos voluptatum dolorem dignissimos totam deserunt itaque laborum
-          minima iusto.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dicta
-          porro temporibus ducimus sapiente? Saepe totam repellendus nulla
-          numquam in laudantium enim veritatis ipsam, voluptate, recusandae
-          incidunt! Iusto, cupiditate a?
-        </p>
-      </div>
+        ">
+      SOBRE MIM
+    </h2>
+    <div id="biografia">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        dolor sint unde quas sed tempora mollitia alias incidunt, quia cum
+        quos voluptatum dolorem dignissimos totam deserunt itaque laborum
+        minima iusto.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dicta
+        porro temporibus ducimus sapiente? Saepe totam repellendus nulla
+        numquam in laudantium enim veritatis ipsam, voluptate, recusandae
+        incidunt! Iusto, cupiditate a?
+      </p>
     </div>
+  </div>
 
-    <h2
-      style="
+  <h2 style="
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         color: #fed82a;
-      "
-    >
-      PROJETOS JÁ FEITOS
-    </h2>
+      ">
+    PROJETOS JÁ FEITOS
+  </h2>
 
-    <!-- Inicio visualizção Desktop -->
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide desktop-view"
-      data-bs-ride="carousel"
-      data-bs-interval="false"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="card" style="width: 18rem">
-                  <img
-                    src="Imagens/ingreso.svg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body" style="height: 340px">
-                    <h5 style="color: black" class="card-title">
-                      Sistema de meia-entrada
-                    </h5>
-                    <p style="color: black" class="card-text">
-                      Luís Especiato é o autor do projeto de meia entrada em
-                      Jales, projeto esse que garante aos professores de
-                      educação infantil, ensino fundamental, médio e
-                      universitário, das escolas públicas e privadas o pagamento
-                      de 50% do valor em áreas de esporte, cultura e lazer de
-                      Jales.
-                    </p>
-                    <a
-                      href="https://jales.siscam.com.br/Documentos/Documento/12704"
-                      target="_blank"
-                      class="btn btn-primary"
-                      >Veja mais</a
-                    >
-                  </div>
+  <!-- Inicio visualizção Desktop -->
+  <div id="carouselExampleIndicators" class="carousel slide desktop-view" data-bs-ride="carousel"
+    data-bs-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img src="Imagens/ingreso.svg" class="card-img-top" alt="..." />
+                <div class="card-body" style="height: 340px; display: flex; flex-direction: column">
+                  <h5 style="color: black" class="card-title">
+                    Sistema de meia-entrada
+                  </h5>
+                  <p style="color: black" class="card-text">
+                    Luís Especiato é o autor do projeto de meia entrada em
+                    Jales, projeto esse que garante aos professores de
+                    educação infantil, ensino fundamental, médio e
+                    universitário, das escolas públicas e privadas o pagamento
+                    de 50% do valor em áreas de esporte, cultura e lazer de
+                    Jales.
+                  </p>
+                  <a href="https://jales.siscam.com.br/Documentos/Documento/12704" target="_blank"
+                    class="btn btnVejaMais">Veja mais</a>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style="width: 18rem">
-                  <img src="Imagens/Filas.svg" class="card-img-top" alt="..." />
-                  <div
-                    class="card-body"
-                    style="height: 340px; display: flex; flex-direction: column"
-                  >
-                    <h5 style="color: black" class="card-title">
-                      Período de atendimento interno em bancos
-                    </h5>
-                    <p style="color: black" class="card-text">
-                      Um dos responsaveis pelo projeto de lei aprovado N° 3.304
-                      que tem por finalidade garanti que as instituições
-                      bancaria tenham funcionários em número compatível para
-                      garantir atendimento em tempo razoável.
-                    </p>
-                    <a
-                      style="margin-top: auto"
-                      href="https://jales.siscam.com.br/Documentos/Documento/12397"
-                      target="_blank"
-                      class="btn btn-primary"
-                      >Veja mais</a
-                    >
-                  </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img src="Imagens/Filas.svg" class="card-img-top" alt="..." />
+                <div class="card-body" style="height: 340px; display: flex; flex-direction: column">
+                  <h5 style="color: black" class="card-title">
+                    Período de atendimento interno em bancos
+                  </h5>
+                  <p style="color: black" class="card-text">
+                    Um dos responsaveis pelo projeto de lei aprovado N° 3.304
+                    que tem por finalidade garanti que as instituições
+                    bancaria tenham funcionários em número compatível para
+                    garantir atendimento em tempo razoável.
+                  </p>
+                  <a href="https://jales.siscam.com.br/Documentos/Documento/12397" target="_blank"
+                    class="btn btnVejaMais">Veja mais</a>
                 </div>
               </div>
+            </div>
 
-              <div class="col">
-                <div class="card" style="width: 18rem">
-                  <img
-                    src="Imagens/arvore.svg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div
-                    class="card-body"
-                    style="height: 340px; display: flex; flex-direction: column"
-                  >
-                    <h5 style="color: black" class="card-title">
-                      Concessionárias de Automóveis devem plantar árvores para
-                      minimizar o efeito estufa
-                    </h5>
-                    <p style="color: black" class="card-text">
-                      Autor da lei que obriga as Concessionárias a plataram uma
-                      árvore a cada carro vendido para a diminuição do efeito
-                      estufa
-                    </p>
-                    <a
-                      href="https://jales.siscam.com.br/Documentos/Documento/13836"
-                      target="_blank"
-                      class="btn btn-primary"
-                      style="margin-top: auto; background-color: #e4142c; border: #e4142c; font-family: 'Montserrat', sans-serif;"
-                      >Veja Mais</a
-                    >
-                  </div>
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img src="Imagens/arvore.svg" class="card-img-top" alt="..." />
+                <div class="card-body" style="height: 340px; display: flex; flex-direction: column">
+                  <h5 style="color: black" class="card-title">
+                    Concessionárias de Automóveis devem plantar árvores para
+                    minimizar o efeito estufa
+                  </h5>
+                  <p style="color: black" class="card-text">
+                    Autor da lei que obriga as Concessionárias a plataram uma
+                    árvore a cada carro vendido para a diminuição do efeito
+                    estufa
+                  </p>
+                  <a href="https://jales.siscam.com.br/Documentos/Documento/13836" target="_blank"
+                    class="btn btnVejaMais">Veja Mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img src="Imagens/ingreso.svg" class="card-img-top" alt="..." />
+                <div class="card-body" style="height: 340px; display: flex; flex-direction: column">
+                  <h5 style="color: black" class="card-title">
+                    Sistema de meia-entrada
+                  </h5>
+                  <p style="color: black" class="card-text">
+                    Luís Especiato é o autor do projeto de meia entrada em
+                    Jales, projeto esse que garante aos professores de
+                    educação infantil, ensino fundamental, médio e
+                    universitário, das escolas públicas e privadas o pagamento
+                    de 50% do valor em áreas de esporte, cultura e lazer de
+                    Jales.
+                  </p>
+                  <a href="https://jales.siscam.com.br/Documentos/Documento/12704" target="_blank"
+                    class="btn btnVejaMais">Veja mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img src="Imagens/Filas.svg" class="card-img-top" alt="..." />
+                <div class="card-body" style="height: 340px; display: flex; flex-direction: column">
+                  <h5 style="color: black" class="card-title">
+                    Período de atendimento interno em bancos
+                  </h5>
+                  <p style="color: black" class="card-text">
+                    Um dos responsaveis pelo projeto de lei aprovado N° 3.304
+                    que tem por finalidade garanti que as instituições
+                    bancaria tenham funcionários em número compatível para
+                    garantir atendimento em tempo razoável.
+                  </p>
+                  <a href="https://jales.siscam.com.br/Documentos/Documento/12397" target="_blank"
+                    class="btn btnVejaMais">Veja mais</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img src="Imagens/arvore.svg" class="card-img-top" alt="..." />
+                <div class="card-body" style="height: 340px; display: flex; flex-direction: column">
+                  <h5 style="color: black" class="card-title">
+                    Concessionárias de Automóveis devem plantar árvores para
+                    minimizar o efeito estufa
+                  </h5>
+                  <p style="color: black" class="card-text">
+                    Autor da lei que obriga as Concessionárias a plataram uma
+                    árvore a cada carro vendido para a diminuição do efeito
+                    estufa
+                  </p>
+                  <a href="https://jales.siscam.com.br/Documentos/Documento/13836" target="_blank"
+                    class="btn btnVejaMais">Veja Mais</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="card" style="width: 18rem">
-            <img src="Imagens/arvore.svg" class="card-img-top" alt="..." />
-            <div
-              class="card-body"
-              style="height: 340px; display: flex; flex-direction: column"
-            >
-              <h5 style="color: black" class="card-title">
-                Concessionárias de Automóveis devem plantar árvores para
-                minimizar o efeito estufa
-              </h5>
-              <p style="color: black" class="card-text">
-                Autor da lei que obriga as Concessionárias a plataram uma árvore
-                a cada carro vendido para a diminuição do efeito estufa
-              </p>
-              <a
-                href="https://jales.siscam.com.br/Documentos/Documento/13836"
-                target="_blank"
-                class="btn btn-primary"
-                style="margin-top: auto"
-                >Veja Mais</a
-              >
-            </div>
-          </div>
-        </div>
-        <!-- <div class="carousel-item">
+      </div>
+      <!-- <div class="carousel-item">
             
           </div> -->
-      </div>
-      <button
-        style="width: 90px"
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+    <button style="width: 90px" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-    <!-- Visão de celular -->
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide mobile-view"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="Imagens/ingreso.svg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body" style="height: 340px; display: flex; flex-direction: column">
-                    <h5 style="color: black" class="card-title">
-                      Sistema de meia-entrada
-                    </h5>
-                    <p style="color: black" class="card-text">
-                      Luís Especiato é o autor do projeto de meia entrada em
-                      Jales, projeto esse que garante aos professores de
-                      educação infantil, ensino fundamental, médio e
-                      universitário, das escolas públicas e privadas o pagamento
-                      de 50% do valor em áreas de esporte, cultura e lazer de
-                      Jales.
-                    </p>
-                    <a
-                      href="https://jales.siscam.com.br/Documentos/Documento/12704"
-                      target="_blank"
-                      class="btn btn-primary"
-                      style="margin-top: auto; background-color: #e4142c; border: #e4142c; font-family: 'Montserrat', sans-serif;"
-                      >Veja mais</a
-                    >
-                  </div>
+  <!-- Visão de celular -->
+  <div id="carouselExampleIndicators" class="carousel slide mobile-view" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <img src="Imagens/ingreso.svg" class="card-img-top" alt="..." />
+                <div class="card-body" style="height: 340px; display: flex; flex-direction: column">
+                  <h5 style="color: black" class="card-title">
+                    Sistema de meia-entrada
+                  </h5>
+                  <p style="color: black" class="card-text">
+                    Luís Especiato é o autor do projeto de meia entrada em
+                    Jales, projeto esse que garante aos professores de
+                    educação infantil, ensino fundamental, médio e
+                    universitário, das escolas públicas e privadas o pagamento
+                    de 50% do valor em áreas de esporte, cultura e lazer de
+                    Jales.
+                  </p>
+                  <a href="https://jales.siscam.com.br/Documentos/Documento/12704" target="_blank"
+                    class="btn btn-primary"
+                    style="margin-top: auto; background-color: #e4142c; border: #e4142c; font-family: 'Montserrat', sans-serif;">Veja
+                    mais</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="container" style="margin-left: 0px">
-            <div class="row">
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="Imagens/Filas.svg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body" style="height: 340px; display: flex; flex-direction: column">
-                    <h5 style="color: black" class="card-title">
-                        Período de atendimento interno em bancos
-                      </h5>
-                      <p style="color: black" class="card-text">
-                        Um dos responsaveis pelo projeto de lei aprovado N° 3.304
-                        que tem por finalidade garanti que as instituições
-                        bancaria tenham funcionários em número compatível para
-                        garantir atendimento em tempo razoável.
-                      </p>
-                      <a
-                        href="https://jales.siscam.com.br/Documentos/Documento/12397"
-                        target="_blank"
-                        class="btn btn-primary"
-                        style="margin-top: auto; background-color: #e4142c; border: #e4142c; font-family: 'Montserrat', sans-serif;"
-                        >Veja mais</a
-                      >
-                  </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container" style="margin-left: 0px">
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <img src="Imagens/Filas.svg" class="card-img-top" alt="..." />
+                <div class="card-body" style="height: 340px; display: flex; flex-direction: column">
+                  <h5 style="color: black" class="card-title">
+                    Período de atendimento interno em bancos
+                  </h5>
+                  <p style="color: black" class="card-text">
+                    Um dos responsaveis pelo projeto de lei aprovado N° 3.304
+                    que tem por finalidade garanti que as instituições
+                    bancaria tenham funcionários em número compatível para
+                    garantir atendimento em tempo razoável.
+                  </p>
+                  <a href="https://jales.siscam.com.br/Documentos/Documento/12397" target="_blank"
+                    class="btn btn-primary"
+                    style="margin-top: auto; background-color: #e4142c; border: #e4142c; font-family: 'Montserrat', sans-serif;">Veja
+                    mais</a>
                 </div>
               </div>
             </div>
@@ -372,45 +324,20 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="slogan">
-      <p id="texto"></p>
-    </div>
+  <div id="slogan">
+    <p id="texto"></p>
+  </div>
 
-    <div>
-      <h2
-        style="
-          text-align: center;
-          font-family: 'Montserrat', sans-serif;
-          color: #fed82a;
-        "
-      >
-        VEJA MAIS EM:
-      </h2>
-      <!-- <ul class="wrapper">
-            <li class="icon facebook">
-              <span class="tooltip">Facebook</span>
-              <span><i class="fab fa-facebook-f"></i></span>
-            </li>
-            <li class="icon twitter">
-              <span class="tooltip">Twitter</span>
-              <span><i class="fab fa-twitter"></i></span>
-            </li>
-            <li class="icon instagram">
-              <span class="tooltip">Instagram</span>
-              <span><i class="fab fa-instagram"></i></span>
-            </li>
-            <li class="icon github">
-              <span class="tooltip">Github</span>
-              <span><i class="fab fa-github"></i></span>
-            </li>
-            <li class="icon youtube">
-              <span class="tooltip">Youtube</span>
-              <span><i class="fab fa-youtube"></i></span>
-            </li>
-          </ul> -->
-    </div>
-
+  <div>
+    <h2 style="
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            color: #fed82a;
+          ">
+      VEJA MAIS EM:
+    </h2>
     <div class="container" style="margin-bottom: 0.5rem">
       <div class="row">
         <div class="col" style="width: 50px">
@@ -418,9 +345,9 @@
             <div>
               <ul class="wrapper">
                 <a href="https://www.facebook.com/especiato" target="_blank">
-                  <li class="icon facebook">
+                  <li class="icon facebook" style="width: 5rem; height: 5rem;">
                     <span class="tooltip">Facebook</span>
-                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-facebook-f" style="font-size: 3rem;"></i></span>
                   </li>
                 </a>
               </ul>
@@ -431,13 +358,10 @@
           <div class="centraliza">
             <div>
               <ul class="wrapper">
-                <a
-                  href="https://www.youtube.com/@LuisEspeciato"
-                  target="_blank"
-                >
-                  <li class="icon youtube">
+                <a href="https://www.youtube.com/@LuisEspeciato" target="_blank">
+                  <li class="icon youtube" style="width: 5rem; height: 5rem;">
                     <span class="tooltip">Youtube</span>
-                    <span><i class="fab fa-youtube"></i></span>
+                    <span><i class="fab fa-youtube" style="font-size: 3rem;"></i></span>
                   </li>
                 </a>
               </ul>
@@ -448,13 +372,10 @@
           <div class="centraliza">
             <div>
               <ul class="wrapper">
-                <a
-                  href="https://www.instagram.com/luisespeciato/"
-                  target="_blank"
-                >
-                  <li class="icon instagram">
+                <a href="https://www.instagram.com/luisespeciato/" target="_blank">
+                  <li style="width: 5rem; height: 5rem;" class="icon instagram">
                     <span class="tooltip">Instagram</span>
-                    <span><i class="fab fa-instagram"></i></span>
+                    <span><i class="fab fa-instagram" style="font-size: 3rem;"></i></span>
                   </li>
                 </a>
               </ul>
@@ -463,133 +384,117 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Inicio Modal Saude -->
-    <div
-      class="modal fade"
-      id="ModalSaude"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div
-          style="background-color: #e4142c; border-radius: 10px"
-          class="modal-content"
-        >
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Saúde</h5>
-            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-          </div>
-          <div class="modal-body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates doloribus eveniet at, distinctio minus obcaecati quod
-              dignissimos, alias, animi eos tempora quas mollitia veniam est!
-              Saepe voluptatem itaque aliquam animi.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary btnModal"
-              data-bs-dismiss="modal"
-            >
-              Fechar
-            </button>
-          </div>
+  <!-- Inicio Modal Saude -->
+  <div class="modal fade" id="ModalSaude" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div style="background-color: #e4142c; border-radius: 10px" class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Saúde</h5>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        </div>
+        <div class="modal-body">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates doloribus eveniet at, distinctio minus obcaecati quod
+            dignissimos, alias, animi eos tempora quas mollitia veniam est!
+            Saepe voluptatem itaque aliquam animi.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btnModal" data-bs-dismiss="modal">
+            Fechar
+          </button>
         </div>
       </div>
     </div>
-    <!-- Fim Modal Saude -->
+  </div>
+  <!-- Fim Modal Saude -->
 
-    <!-- Inicio Modal Agronomia -->
-    <div
-      class="modal fade"
-      id="ModalAgro"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div
-          style="background-color: #e4142c; border-radius: 10px"
-          class="modal-content"
-        >
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Agronomia</h5>
-            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-          </div>
-          <div class="modal-body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates doloribus eveniet at, distinctio minus obcaecati quod
-              dignissimos, alias, animi eos tempora quas mollitia veniam est!
-              Saepe voluptatem itaque aliquam animi.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary btnModal"
-              data-bs-dismiss="modal"
-            >
-              Fechar
-            </button>
-          </div>
+  <!-- Inicio Modal Agronomia -->
+  <div class="modal fade" id="ModalAgro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div style="background-color: #e4142c; border-radius: 10px" class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Agronomia</h5>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        </div>
+        <div class="modal-body">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates doloribus eveniet at, distinctio minus obcaecati quod
+            dignissimos, alias, animi eos tempora quas mollitia veniam est!
+            Saepe voluptatem itaque aliquam animi.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btnModal" data-bs-dismiss="modal">
+            Fechar
+          </button>
         </div>
       </div>
     </div>
-    <!-- Fim Modal Agronomia -->
+  </div>
+  <!-- Fim Modal Agronomia -->
 
-    <!-- Inicio Modal Educação -->
-    <div
-      class="modal fade"
-      id="ModalEdu"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div
-          style="background-color: #e4142c; border-radius: 10px"
-          class="modal-content"
-        >
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Educação</h5>
-            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-          </div>
-          <div class="modal-body">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates doloribus eveniet at, distinctio minus obcaecati quod
-              dignissimos, alias, animi eos tempora quas mollitia veniam est!
-              Saepe voluptatem itaque aliquam animi.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary btnModal"
-              data-bs-dismiss="modal"
-            >
-              Fechar
-            </button>
-          </div>
+  <!-- Inicio Modal Educação -->
+  <div class="modal fade" id="ModalEdu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div style="background-color: #e4142c; border-radius: 10px" class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Educação</h5>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        </div>
+        <div class="modal-body">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates doloribus eveniet at, distinctio minus obcaecati quod
+            dignissimos, alias, animi eos tempora quas mollitia veniam est!
+            Saepe voluptatem itaque aliquam animi.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btnModal" data-bs-dismiss="modal">
+            Fechar
+          </button>
         </div>
       </div>
     </div>
-    <!-- Fim Modal educação -->
+  </div>
+  <!-- Fim Modal educação -->
 
-    <script src="script.js"></script>
-    <script
-      src="https://kit.fontawesome.com/1df0df241d.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Inicio Modal Gereção de Empregos -->
+  <div class="modal fade" id="ModalEmpregos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div style="background-color: #e4142c; border-radius: 10px" class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Gereção de empregos</h5>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        </div>
+        <div class="modal-body">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates doloribus eveniet at, distinctio minus obcaecati quod
+            dignissimos, alias, animi eos tempora quas mollitia veniam est!
+            Saepe voluptatem itaque aliquam animi.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btnModal" data-bs-dismiss="modal">
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fim Modal  Geração de empregos -->
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/1df0df241d.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

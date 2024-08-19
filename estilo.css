@@ -94,6 +94,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.btnVejaMais{
+  margin-top: auto; 
+  background-color: #e4142c; 
+  border: #e4142c; 
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
 
 
 .wrapper {
