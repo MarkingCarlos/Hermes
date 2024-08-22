@@ -86,7 +86,7 @@
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
-    font-size: 25px;
+    font-size: 1.6rem;
     text-align: center;
 }
 
@@ -228,4 +228,7 @@ ul{
     
 }
 
+.proj:hover{
+  color:#e4142c ;
+}
 
