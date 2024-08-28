@@ -336,7 +336,8 @@
 
 
   <!-- Visão de celular -->
-  <div id="carouselExampleIndicators" class="carousel slide mobile-view" data-bs-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide mobile-view" data-bs-ride="carousel"
+  data-bs-interval="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="container">
@@ -507,7 +508,57 @@
 VIDEOS
 </h2>
 
-  <!-- Inicio videos visão dsktop-->
+  <!-- Inicio videos visão Mobile-->
+  <div id="carouselVideoIndicators" class="carousel slide mobile-view" data-bs-ride="carousel"
+  data-bs-interval="false" style="margin-top: 2rem;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col centraliza">
+            <div>
+
+              <div class="card" style="width: 18rem">
+                <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
+                  <video src="Imagens/videos/Taxas.mp4" controls autoplay  muted style="height: 450px; width: auto; border-radius: 10px;"  ></video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col centraliza">
+            <div class="card" style="width: 18rem">
+              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
+                <video src="Imagens/videos/Video2.mp4" poster="Imagens/Func.png" controls style="height: 450px; width: auto; border-radius: 10px;"  ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col centraliza">
+            <div class="card" style="width: 18rem">
+              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
+                <video src="Imagens/videos/Funcoes.mp4" controls  poster="Imagens/FuncaoVereador.png" style="height: 450px; width: auto; border-radius: 10px;"  ></video>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Final videos visão Mobile-->
+
+  <!-- Inicio videos visão Desktop-->
   <div id="carouselVideoIndicators" class="carousel slide desktop-view" data-bs-ride="carousel"
   data-bs-interval="false" style="margin-top: 2rem;">
   <div class="carousel-inner">
@@ -519,7 +570,7 @@ VIDEOS
 
               <div class="card" style="width: 18rem">
                 <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                  <video src="Imagens/videos/Taxas.mp4" controls autoplay  muted style="height: 450px; width: auto;"  ></video>
+                  <video src="Imagens/videos/Taxas.mp4" controls autoplay  muted style="height: 450px; width: auto; border-radius: 10px;"  ></video>
                 </div>
               </div>
             </div>
@@ -527,7 +578,7 @@ VIDEOS
           <div class="col centraliza">
             <div class="card" style="width: 18rem">
               <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                <video src="Imagens/videos/Video2.mp4" controls style="height: 450px; width: auto;"  ></video>
+                <video src="Imagens/videos/Video2.mp4" poster="Imagens/Func.png" controls style="height: 450px; width: auto; border-radius: 10px;"  ></video>
               </div>
             </div>
           </div>
@@ -535,7 +586,7 @@ VIDEOS
           <div class="col centraliza">
             <div class="card" style="width: 18rem">
               <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                <video src="Imagens/videos/teste.mp4" controls  poster="Imagens/celularteste.jpg" style="height: 450px; width: auto; border-radius: 10px;"  ></video>
+                <video src="Imagens/videos/Funcoes.mp4" controls  poster="Imagens/FuncaoVereador.png" style="height: 450px; width: auto; border-radius: 10px;"  ></video>
                
               </div>
             </div>
@@ -543,35 +594,6 @@ VIDEOS
         </div>
       </div>
     </div>
-
-  <!--  <div class="carousel-item">
-      <div class="container">
-        <div class="row">
-          <div class="col centraliza">
-            <div class="card" style="width: 18rem">
-              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                <video src="Imagens/videos/teste.mp4" controls style="height: 450px; width: auto;"  ></video>
-              </div>
-            </div>
-          </div>
-          <div class="col centraliza">
-            <div class="card" style="width: 18rem">
-              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                <video src="Imagens/videos/teste.mp4" controls style="height: 450px; width: auto;"  ></video>
-              </div>
-            </div>
-          </div>
-
-          <div class="col centraliza">
-            <div class="card" style="width: 18rem">
-              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                <video src="Imagens/videos/t" controls style="height: 450px; width: auto;"  ></video>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>-->
   </div>
   <button style="width: 90px" class="carousel-control-prev" type="button" data-bs-target="#carouselVideoIndicators"
     data-bs-slide="prev">
