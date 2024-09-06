@@ -19,48 +19,6 @@
 }
 
 
-#imgLuis{
-    
-    z-index: 1;
-    float: left;
-    top: 5%;
-    left: 3%;
-}
-#projetos{
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; 
-    background-color:#e4142c ;
-    border: 5px solid white;
-    border-radius: 10px;
-    height: 50px;
-    width: 300px;
-    text-align: center;
-    z-index: 2;
-    position: absolute;
-    top: 48%;
-
-}
-
-#imgPartido{
-    position: absolute;
-    left: 65%;
-    top: 1%;
-}
-
-#ideais{
-    display: flex;
-    justify-content: space-between; /* Centraliza horizontalmente */
-    align-items: center; 
-    background-color: #e4142c;
-    width: 90%;
-    height: 20vh;
-    padding-left: 5%;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;  
-    font-size: 14px;
-
-}
 
 .Box{
     height: 100px;
