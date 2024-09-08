@@ -512,7 +512,7 @@ VIDEOS
   <!-- Inicio videos visão Mobile-->
   <div id="carouselVideoIndicators" class="carousel slide mobile-view" data-bs-ride="carousel"
   data-bs-interval="false" style="margin-top: 2rem;">
-  <div class="carousel-inner">
+  <div class="carousel-inner" id="VideoMobile">
     <div class="carousel-item active">
       <div class="container">
         <div class="row">
@@ -529,110 +529,38 @@ VIDEOS
         </div>
       </div>
     </div>
-  <div class="carousel-item">
-      <div class="container">
-        <div class="row">
-          <div class="col centraliza">
-            <div class="card" style="width: 18rem">
-              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                <video src="Imagens/videos/Video2.mp4" poster="Imagens/Func.png" controls style="height: 450px; width: auto; border-radius: 10px;"  ></video>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="container">
-        <div class="row">
-          <div class="col centraliza">
-            <div class="card" style="width: 18rem">
-              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                <video src="Imagens/videos/Funcoes.mp4" controls  poster="Imagens/FuncaoVereador.png" style="height: 450px; width: auto; border-radius: 10px;"  ></video>               
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
   </div>
 </div>
 <!--Final videos visão Mobile-->
 
   <!-- Inicio videos visão Desktop-->
-  <div id="carouselVideoIndicators" class="carousel slide desktop-view" data-bs-ride="carousel"
+  <div id="VideoIndicators" class="carousel slide desktop-view" data-bs-ride="carousel"
   data-bs-interval="false" style="margin-top: 2rem;">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="container">
-        <div class="row">
-          <div class="col centraliza">
-            <div>
-
-              <div class="card" style="width: 18rem">
-                <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                  <video src="Imagens/videos/Taxas.mp4" controls poster="Imagens/taxa coleta.webp"  muted style="height: 450px; width: auto; border-radius: 10px;"  ></video>
-                </div>
-              </div>
-            </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" >
+        <div class="container" >
+          <div class="row" id="ItemCarrosel">
           </div>
-          <div class="col centraliza">
-            <div class="card" style="width: 18rem">
-              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                <video src="Imagens/videos/Video2.mp4" poster="Imagens/Func.png" controls style="height: 450px; width: auto; border-radius: 10px;"  ></video>
-              </div>
-            </div>
-          </div>
-          <div class="col centraliza">
-            <div class="card" style="width: 18rem">
-              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                <video src="Imagens/videos/Funcoes.mp4" controls  poster="Imagens/FuncaoVereador.png" style="height: 450px; width: auto; border-radius: 10px;"  ></video>              
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="carousel-item" >
+        <div class="container" >
+          <div class="row" id="ItemCarroselPage2">
           </div>
         </div>
       </div>
     </div>
-    <div class="carousel-item">
-      <div class="container">
-        <div class="row">
-          <div class="col centraliza">
-            <div>
-              <div class="card" style="width: 18rem">
-                <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                  <video src="Imagens/videos/Taxas.mp4" controls poster="Imagens/taxa coleta.webp"  muted style="height: 450px; width: auto; border-radius: 10px;"  ></video>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col centraliza">
-            <div class="card" style="width: 18rem">
-              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                <video src="Imagens/videos/Video2.mp4" poster="Imagens/Func.png" controls style="height: 450px; width: auto; border-radius: 10px;"  ></video>
-              </div>
-            </div>
-          </div>
-          <div class="col centraliza">
-            <div class="card" style="width: 18rem">
-              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                <!-- <video src="Imagens/videos/Ministro.mp4" controls  poster="Imagens/FuncaoVereador.png" style="height: 450px; width: auto; border-radius: 10px;"  ></video>               -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <button style="width: 90px" class="carousel-control-prev" type="button" data-bs-target="#carouselVideoIndicators"
-    data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button style="width: 90px" class="carousel-control-next" type="button" data-bs-target="#carouselVideoIndicators"
-    data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+    <button style="width: 90px" class="carousel-control-prev" type="button" data-bs-target="#VideoIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button style="width: 90px" class="carousel-control-next" type="button" data-bs-target="#VideoIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
 </div>
 <!--Final videos visão desktop-->
 
@@ -984,8 +912,6 @@ VIDEOS
           </div>
         </div>
         <!-- Fim Modal  Projetos -->
-
-
 
   <script src="script.js"></script>
   <script src="https://kit.fontawesome.com/1df0df241d.js" crossorigin="anonymous"></script>
