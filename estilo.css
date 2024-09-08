@@ -48,6 +48,21 @@
     text-align: center;
 }
 
+.btnProjeto{
+  background-color: #fed82a;
+   margin-top: 1rem; border: #e4142c;
+   width: 80vw;
+   margin-bottom: 0px; 
+   color: #e4142c;
+   
+}
+
+.btnProjeto p {
+   margin-bottom: 0px; 
+   color: #e4142c;
+   
+}
+
 .btnModal{
     background-color: #e4142c;
     border: 2px solid white; 
@@ -175,8 +190,40 @@ ul{
     display: none;
 }
 
+.proj{
+  background-color: #fed82a; 
+  margin-bottom: .5rem; 
+  width: 6rem; 
+  height: auto; 
+  color: #e4142c;
+  font-size: 15px;
+}
+
+.ProjClique{
+  background-color: #fed82a; 
+  margin-bottom: .5rem; 
+  width: 8rem; 
+  color: #e4142c;
+  font-size: 15px;
+}
+.proj:hover{
+  color:#e4142c ;
+}
+
+
 
 @media only screen and (min-width: 769px) {
+  .proj{
+    width: 8rem; 
+    font-size: 20px;
+  }
+  .ProjClique{
+    width: 13rem; 
+    font-size: 25px;
+  }
+    .btnProjeto p {
+      font-size: 2rem; /* Para telas maiores, a largura é reduzida */
+    }
     .desktop-view {
         display: block;
     }
@@ -186,7 +233,4 @@ ul{
     
 }
 
-.proj:hover{
-  color:#e4142c ;
-}
 

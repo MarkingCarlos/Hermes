@@ -492,8 +492,11 @@
     </div>
   </div>
   <div id="slogan" style="padding-top: 0px;">
-    <p style="margin-bottom: 0px;">Veja todos em:</p>
-      <a class="btn btnVejaMais proj" style="background-color: #fed82a; margin-bottom: .5rem; width: 10rem; height: auto;" href="https://jales.siscam.com.br/Vereadores/Vereador/18" target="_blank">Projetos</a>
+    <button class="btn btnProjeto"  data-bs-toggle="modal" data-bs-target="#ModalPro">
+      <p >Clique aqui para ver todos os projetos</p>
+
+    </button>
+      
   </div>
 
   <h2 style="
@@ -580,12 +583,39 @@ VIDEOS
               </div>
             </div>
           </div>
-
           <div class="col centraliza">
             <div class="card" style="width: 18rem">
               <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
-                <video src="Imagens/videos/Funcoes.mp4" controls  poster="Imagens/FuncaoVereador.png" style="height: 450px; width: auto; border-radius: 10px;"  ></video>
-               
+                <video src="Imagens/videos/Funcoes.mp4" controls  poster="Imagens/FuncaoVereador.png" style="height: 450px; width: auto; border-radius: 10px;"  ></video>              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col centraliza">
+            <div>
+              <div class="card" style="width: 18rem">
+                <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
+                  <video src="Imagens/videos/Taxas.mp4" controls poster="Imagens/taxa coleta.webp"  muted style="height: 450px; width: auto; border-radius: 10px;"  ></video>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col centraliza">
+            <div class="card" style="width: 18rem">
+              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
+                <video src="Imagens/videos/Video2.mp4" poster="Imagens/Func.png" controls style="height: 450px; width: auto; border-radius: 10px;"  ></video>
+              </div>
+            </div>
+          </div>
+          <div class="col centraliza">
+            <div class="card" style="width: 18rem">
+              <div class="card-body" style="height: 500px; display: flex; flex-direction: column">
+                <!-- <video src="Imagens/videos/Ministro.mp4" controls  poster="Imagens/FuncaoVereador.png" style="height: 450px; width: auto; border-radius: 10px;"  ></video>               -->
               </div>
             </div>
           </div>
@@ -887,6 +917,73 @@ VIDEOS
       </div>
     </div>
     <!-- Fim Modal  Funcionario -->
+
+        <!-- Inicio Modal Projetos -->
+        <div  class="modal fade" id="ModalPro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-md"  >
+            <div style="background-color: #e4142c; border-radius: 10px;" class="modal-content">
+              <div class="modal-header" style="justify-content: center;">
+                <h5 class="modal-title" style="text-align: center; font-weight: 700;" id="exampleModalLabel">Projetos</h5>
+              </div>
+              <div class="modal-body centraliza" style="text-align: justify; justify-content: space-between;">
+                <a class="btn btnVejaMais ProjClique" href="https://jales.siscam.com.br/Vereadores/Vereador/18" target="_blank">Projetos 2008-2012</a>
+                <a class="btn btnVejaMais ProjClique" data-bs-toggle="modal" data-bs-target="#Modal2002" >Projetos 2002-2007</a>
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btnModal" data-bs-dismiss="modal">
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Modal  Projetos -->
+
+        <!-- Inicio Modal Projetos -->
+        <div class="modal fade" id="Modal2002" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-md">
+            <div style="background-color: #e4142c; border-radius: 10px;" class="modal-content">
+              <div class="modal-header" style="justify-content: center;">
+                <h5 class="modal-title" style="text-align: center; font-weight: 700;" id="exampleModalLabel">Escolha um ano</h5>
+              </div>
+              <div class="modal-body centraliza" style="text-align: justify; justify-content: space-between;">
+                <a class="btn btnVejaMais proj"
+                  
+                  href="https://www.jales.sp.leg.br/files/relatoriosanuais/1450100921566ec8b99b5be.pdf" target="_blank">Projetos 2002</a>
+
+                  <a class="btn btnVejaMais proj"
+                  href="https://www.jales.sp.leg.br/files/relatoriosanuais/1450100966566ec8e69c662.pdf" target="_blank">Projetos 2003</a>
+
+                  <a class="btn btnVejaMais proj"
+                  href="https://www.jales.sp.leg.br/files/relatoriosanuais/1450100966566ec8e69c662.pdf" target="_blank">Projetos 2004</a>
+
+                  
+                </div>
+                  <div class="modal-body centraliza" style="text-align: justify; justify-content: space-between;">
+                    <a class="btn btnVejaMais proj"
+                      href="https://www.jales.sp.leg.br/files/relatoriosanuais/1450101070566ec94ec53d0.pdf" target="_blank">Projetos
+                      2005</a>
+             
+                  
+                  <a class="btn btnVejaMais proj"
+                    href="https://www.jales.sp.leg.br/files/relatoriosanuais/1450101116566ec97c77b56.pdf" target="_blank">Projetos
+                    2006</a>
+                
+                  
+                  <a class="btn btnVejaMais proj"
+                    href="https://www.jales.sp.leg.br/files/relatoriosanuais/1450101152566ec9a0e7e82.pdf" target="_blank">Projetos
+                    2007</a>
+                </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btnModal" data-bs-dismiss="modal">
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim Modal  Projetos -->
 
 
 
